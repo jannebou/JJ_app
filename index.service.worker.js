@@ -4,14 +4,14 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1781101821|3466132772';
+const CACHE_VERSION = '1781102263|3907570299';
 /** @type {string} */
 const CACHE_PREFIX = 'jj-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 /** @type {string} */
 const OFFLINE_URL = 'index.offline.html';
 /** @type {boolean} */
-const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
+const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = false;
 // Files that will be cached on load.
 /** @type {string[]} */
 const CACHED_FILES = ["index.html","index.js","index.offline.html","index.audio.worklet.js","index.audio.position.worklet.js","pako_inflate.min.js"];
